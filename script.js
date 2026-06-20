@@ -12,7 +12,7 @@ form.addEventListener("submit", function (e) {
 
         gender: document.getElementById("gender").value,
 
-        dob: document.getElementById("date of admit").value,
+        dob: document.getElementById("doa").value,
 
         phone: document.getElementById("phone").value,
 
