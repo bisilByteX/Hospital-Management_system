@@ -12,7 +12,7 @@ form.addEventListener("submit", function (e) {
 
         gender: document.getElementById("gender").value,
 
-        dob: document.getElementById("dob").value,
+        dob: document.getElementById("date of admit").value,
 
         phone: document.getElementById("phone").value,
 
@@ -34,18 +34,11 @@ form.addEventListener("submit", function (e) {
 
 });
 
-
-// Future Use
-// Display Patients
-
 function getPatients(){
 
     return JSON.parse(localStorage.getItem("patients")) || [];
 
 }
-
-
-// Search Patient
 
 function searchPatient(name){
 
@@ -58,9 +51,6 @@ function searchPatient(name){
     );
 
 }
-
-
-// Delete Patient
 
 function deletePatient(index){
 
